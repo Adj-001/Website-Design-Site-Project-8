@@ -1,0 +1,112 @@
+body {
+    margin: 0em;
+    padding: 0em;
+    font-family: "Roboto";
+    margin: 0em 7em;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5em;
+}
+
+nav img {
+    width: 6em;
+    cursor: pointer;
+}
+.nav-items {
+    display: flex;
+    margin-right: 5em;
+    color: #2c3374;
+}
+
+.nav-item {
+    list-style-type: none;
+    margin-left: 5em;
+    z-index: 7;
+    cursor: pointer;
+}
+
+
+.left-section {
+    display: inline-block;
+    margin-top: 4em;
+}
+
+.left-section h1 {
+    font-size: 5em;
+    color: #3e4794;
+}
+
+.left-section h4 {
+    font-size: 0.7em;
+    margin-bottom: 5em;
+    color: #b0b2c3;
+}
+
+.imgs-div {
+    display: inline-block;
+    position: fixed;
+    bottom: 4em;
+    right: 32em;
+}
+
+.vector-dot {
+    position: relative;
+    bottom: 5em;
+    right: 3em;
+}
+
+.main {
+    position: fixed;
+    bottom: 1em;
+    right: 0em;
+    width: 45em;
+    height: 35em;
+}
+
+.cover {
+    position: fixed;
+    bottom: 2em;
+    right: 0em;
+    top:0.1em;
+    height: 40em;
+    z-index: -1;
+}
+
+button {
+    background-image: linear-gradient(to right, #965cf2 , #ff8adc);
+    border: transparent;
+    padding: 0.5em 1em;
+    border-radius: 2em;
+    color: #ffffff;
+    font-size: 1em;
+    text-align: center;
+    font-weight: 600;
+    font-family: "Roboto";
+    letter-spacing: 0.1em;
+    z-index: 7;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.signin-btn {
+    background-image: linear-gradient(to right, #965cf2 , #ff8adc);
+    border: transparent;
+    padding: 0.5em 1em;
+    border-radius: 2em;
+    color: #ffffff;
+    font-size: 1em;
+    text-align: center;
+    font-weight: 600;
+    font-family: "Roboto";
+    letter-spacing: 0.1em;
+}
+
+.signin-btn:hover {
+    cursor: pointer;
+}
